@@ -25,7 +25,7 @@ exports.create = (dirpath) => {
       }
       console.log(`${item} 文件夹创建成功`)
       if (item !== arr[0]) return
-      fs.writeFile(path.join(dirpath, 'README.md'), '', err => {
+      fs.writeFile(path.join(dirpath, item, 'README.md'), '', err => {
         console.log('README.md创建完成')
       })
     })
