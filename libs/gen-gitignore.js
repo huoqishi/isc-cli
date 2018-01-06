@@ -5,7 +5,7 @@ module.exports = function (dirpath = process.cwd()) {
     if (err) {
       return console.log(err)
     }
-    const filepath = path.join(dirpath, './.gitignore')
+    const filepath = path.join(dirpath, './gitignore')
     fs.writeFile(filepath, data, err => {
       if (err) {
         return console.log(err)

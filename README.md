@@ -9,3 +9,6 @@
 $ isc --course <父级文件夹名>
 $ isc --course day01
 ```
+```bash
+$ isc --git
+```
